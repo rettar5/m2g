@@ -1,0 +1,3 @@
+#! /bin/sh
+
+bash /usr/local/m2g/convHelper.sh $1
