@@ -7,7 +7,7 @@ convert helper .mov to .gif(animation)
   - `$ git clone https://github.com/rettar5/m2g /usr/local/m2g`
 1. ffmpegをインストール
   - `$ brew install ffmpeg`
-1. ImageMagicをインストール
+1. __(もしffmpegが動かなければ)__ ImageMagicを再インストール
   - `$ brew remove --purge imagemagick`
   - `$ brew install fontconfig libtiff little-cms2 jasper libwmf librsvg liblqr openexr ghostscript webp`
   - `$ brew install imagemagick`
