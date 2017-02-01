@@ -18,3 +18,7 @@ convert helper .mov to .gif(animation)
 
 ## usage
 - `$ m2g fileName.mov`
+
+## notice
+- OSをバージョンアップ(El Capitan -> Serria)すると、シンボリックリンクが消えてしまうことがあるようです。  
+  - その際は `$ ln -s /usr/local/m2g/m2g /usr/local/bin/m2g` をもう一度実行してシンボリックリンクを張り直してください。
