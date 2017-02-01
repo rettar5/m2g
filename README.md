@@ -17,7 +17,7 @@ convert helper .mov to .gif(animation)
   - `$ chmod +x /usr/local/bin/m2g`
 
 ## usage
-- `$ m2g fileName.mov`
+- `$ m2g -w width -f fileName.mov`
 
 ## notice
 - OSをバージョンアップ(El Capitan -> Serria)すると、シンボリックリンクが消えてしまうことがあるようです。  
