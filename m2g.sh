@@ -17,8 +17,8 @@ done
 if [ "" != "${FILEPATH}" ] 
 then 
     impName=${FILEPATH}
-    expName=${FILEPATH//.mov/.gif}
-    expName=${expName//.MOV/.gif}
+    expName=`echo ${FILEPATH} | sed -e "s/\.[a-z0-9]*$/.gif/g"`
+
     `ffmpeg -i ${impName} -vf scale=${WIDTH}:-1 -r 10 ${expName}`
 else
     echo "Usage: m2g [-w WIDTH] [-f FIILEPATH]"
