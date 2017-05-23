@@ -4,17 +4,17 @@ convert helper .mov to .gif(animation)
 
 ## installization
 1. リポジトリをクローン
-  - `$ git clone https://github.com/rettar5/m2g /usr/local/m2g`
+    - `$ git clone https://github.com/rettar5/m2g /usr/local/m2g`
 1. ffmpegをインストール
-  - `$ brew install ffmpeg`
+    - `$ brew install ffmpeg`
 1. __(もしffmpegが動かなければ)__ ImageMagicを再インストール
-  - `$ brew remove --purge imagemagick`
-  - `$ brew install fontconfig libtiff little-cms2 jasper libwmf librsvg liblqr openexr ghostscript webp`
-  - `$ brew install imagemagick`
+    - `$ brew remove --purge imagemagick`
+    - `$ brew install fontconfig libtiff little-cms2 jasper libwmf librsvg liblqr openexr ghostscript webp`
+    - `$ brew install imagemagick`
 1. シンボリックリンクを作成
-  - `$ ln -s /usr/local/m2g/m2g.sh /usr/local/bin/m2g`
+    - `$ ln -s /usr/local/m2g/m2g.sh /usr/local/bin/m2g`
 1. 実行権限を付与
-  - `$ chmod +x /usr/local/bin/m2g`
+    - `$ chmod +x /usr/local/bin/m2g`
 
 ## usage
 - `$ m2g -w width -f fileName.mov`
